@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&family=Barlow:wght@300;400;500;600&family=Bellefair&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-dark-blue
+}
+
+ul a.active {
+    @apply block md:flex md:items-center md:h-full border-r-4 md:border-b-2 md:border-r-0 border-solid border-white
+}
+
+ul a {
+    @apply block md:flex md:items-center md:h-full hover:lg:border-b-2 hover:lg:border-r-0 border-solid border-white/50 hover:transition-all hover:duration-300
+}
+
+.mySwiper .swiper-pagination-bullet {
+    @apply w-[10px] h-[10px] bg-white
+}
+
+.mySwiper .swiper-pagination {
+    @apply flex justify-center gap-2 md:hidden
+}
+
+.swiperDescription .swiper-pagination-bullet {
+    @apply w-2 h-2 lg:w-[15px] lg:h-[15px] bg-white hover:lg:opacity-50
+}
+
+.swiperDescription .swiper-pagination {
+    @apply hidden justify-center lg:justify-start gap-2 lg:gap-6 md:flex
+}
+
+.swiper-pagination {
+    @apply bottom-0
+}
+
+.mySwiperTechnology .swiper-pagination-bullet {
+    @apply w-10 md:w-[60px] h-10 md:h-[60px] flex lg:hidden items-center justify-center font-bellefair text-center text-base text-white opacity-100 bg-transparent border-[1px] border-solid border-white
+}
+
+.mySwiperTechnologyText .swiper-pagination-bullet {
+    @apply w-10 md:w-[60px] h-10 md:h-[60px] hidden lg:flex items-center justify-center font-bellefair text-center text-base text-white opacity-100 bg-transparent border-[1px] border-solid border-white/50 hover:lg:border-white hover:transition-all hover:duration-300
+}
+
+.mySwiperTechnologyText .swiper-pagination-bullet-active {
+    color: #0B0D17;
+    background: #fff;
+}
+
+.mySwiperTechnology .swiper-pagination-bullet-active {
+    color: #0B0D17;
+    background: #fff;
+}
+
+.mySwiperTechnologyText .swiper-pagination {
+    @apply flex justify-start gap-4 md:gap-2 absolute bottom-20
+}
+
+.mySwiperTechnology .swiper-pagination {
+    @apply flex justify-center gap-4 md:gap-2
+}
