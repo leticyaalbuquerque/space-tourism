@@ -1,7 +1,7 @@
-import Crew1 from '../assets/img/crew-1.webp'
-import Crew2 from '../assets/img/crew-2.webp'
-import Crew3 from '../assets/img/crew-3.webp'
-import Crew4 from '../assets/img/crew-4.webp'
+import Crew1 from '../assets/img/crew-1.png'
+import Crew2 from '../assets/img/crew-2.png'
+import Crew3 from '../assets/img/crew-3.png'
+import Crew4 from '../assets/img/crew-4.png'
 
 export const SliderCrew = [{
     img: Crew1,

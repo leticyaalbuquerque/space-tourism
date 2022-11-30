@@ -64,7 +64,7 @@ export default function Technology() {
                 key={i}
                 className="w-full flex flex-col items-center text-center mb-16 lg:mb-0"
               >
-                <div className="mb-8 xl:mb-0 w-full h-56 md:h-80 xl:h-[500px] xl:w-3/4 flex flex-col items-center overflow-hidden">
+                <div className="mb-8 xl:mb-0 w-full h-56 md:h-80 lg:h-[400px] xl:h-[500px] lg:w-3/4 flex flex-col items-center justify-center overflow-hidden">
                   <img src={slide.img} alt="" className="w-full h-full object-cover object-bottom" />
                 </div>
               </SwiperSlide>

@@ -4,9 +4,14 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 
+const baseName =
+  import.meta.env.MODE === "development"
+    ? ""
+    : "https://leticyaalbuquerque.github.io/space-tourism/";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/">
       <App />
     </BrowserRouter>
   </>

@@ -11,7 +11,7 @@ export default function App() {
     <>
       <Header />
 
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/destination" element={<Destination />} />

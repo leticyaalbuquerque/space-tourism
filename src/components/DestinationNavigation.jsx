@@ -22,7 +22,7 @@ export default function DestinationNavigation(props) {
         />
       </motion.div>
 
-      <div className="flex flex-col items-center lg:items-start lg:w-1/2">
+      <div className="flex flex-col items-center lg:items-start lg:justify-start lg:w-1/2">
         <ul className="flex gap-8 h-9">
           {destinations.map((item, i) => {
             const isActive = activeNavigationIndex === i;
