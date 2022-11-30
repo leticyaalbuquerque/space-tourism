@@ -6,9 +6,9 @@
   "homepage": "https://leticyaalbuquerque.github.io/space-tourism",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build --base=./",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
