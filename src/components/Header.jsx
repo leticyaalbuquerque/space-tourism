@@ -1,6 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
-import { motion } from "framer-motion";
 import Logo from "/space-logo.svg";
 import { useState } from "react";
 
@@ -49,18 +48,18 @@ export default function Header() {
             </NavLink>
           </li>
           <li className="md:h-24 md:flex md:items-center">
-            <NavLink to="/destination" className="lg:flex" onClick={() => {setShowMenu(false)}}>
+            <NavLink to="destination" className="lg:flex" onClick={() => {setShowMenu(false)}}>
               <span className="md:hidden lg:flex font-bold pr-4">01</span>
               Destination
             </NavLink>
           </li>
           <li className="md:h-24 md:flex md:items-center">
-            <NavLink to="/crew" className="lg:flex" onClick={() => {setShowMenu(false)}}>
+            <NavLink to="crew" className="lg:flex" onClick={() => {setShowMenu(false)}}>
               <span className="md:hidden lg:flex font-bold pr-4">02</span>Crew
             </NavLink>
           </li>
           <li className="md:h-24 md:flex md:items-center">
-            <NavLink to="/technology" className="lg:flex" onClick={() => {setShowMenu(false)}}>
+            <NavLink to="technology" className="lg:flex" onClick={() => {setShowMenu(false)}}>
               <span className="md:hidden lg:flex font-bold pr-4">03</span>
               Technology
             </NavLink>
